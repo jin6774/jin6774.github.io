@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clear {
+    clear: both;
+}
+
+html {
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+* {
+    font-family: 'Pretendard-Thin';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/blur.jpg");
+    background-size: cover;
+    cursor: none;
+    margin: 0 80px 15px 80px;
+    color: rgba(255, 255, 255, 0.9);
+    /*border: 1px solid white;*/
+    text-align: center;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.cursor {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255, 0.15);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    /* user-select: none;
+    pointer-events: none; */
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.cursor.cursor_hover {
+    transform: scale(3);
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+header {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    /*border: 1px solid white;*/
+}
+
+#SNS {
+    bottom: 40px;
+    right: 80px;
+    position: fixed;
+}
+
+#icon {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#st {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-size: 20px;
+}
+
+.logo {
+    font-family: 'Pretendard-Light';
+    font-size: 28px;
+    height: fit-content;
+    /*border: 1px solid white;*/
+}
+
+.logo a:link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.logo a:active {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+
+.gnbMenu a:link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.gnbMenu a:visited {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.gnbMenu a:hover {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.gnbMenu a:active {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+nav {
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.gnbMenu {
+    margin-top: 10px;
+    display: flex;
+    /*border: 1px solid white;*/
+}
+
+.gnbMenu li {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 0 30px;
+    list-style: none;
+    height: 20px;
+    /* border-bottom: 1px dashed #fff;
+    border: 1px solid red; */
+    z-index: 9998;
+    /*border: 1px solid white;*/
+}
+
+.six {
+    width: 62px;
+}
+
+.five {
+    width: 50px;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10px;
+}
+
+#this {
+    font-family: 'Pretendard-Regular';
+}
+
+#main_img {
+    text-align: left;
+    margin: 110px 110px 0 0;
+    float: right;
+    overflow: hidden;
+    box-shadow: 30px 15px 5px 0 rgba(255, 255, 255, 0.05);
+}
+
+
+#main_img img {
+    height: 400px;
+}
+
+
+
+.main_contents a {
+    font-size: 13px;
+    float: right;
+    padding: 5px;
+    margin-right: 220px;
+    border: solid 1px rgba(255, 255, 255, 0.71);
+}
+
+.main_contents a:link{
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-right: 220px;
+    border: solid 1px rgba(255, 255, 255, 0.71);
+    text-decoration: none;
+}
+
+.main_contents a:visited{
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-right: 220px;
+    border: solid 1px rgba(255, 255, 255, 0.71);
+    text-decoration: none;
+}
+
+.main_contents a:hover{
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-right: 220px;
+    border: solid 1px rgba(255, 255, 255, 0.71);
+    background-color: rgba(255, 255, 255, 0.559);
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 100px;
+}
