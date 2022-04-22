@@ -85,13 +85,6 @@ header {
     position: fixed;
 }
 
-#icon {
-    padding: 0;
-    margin-right: 10px;
-    font-size: 40px;
-    color: rgba(255, 255, 255, 0.9);
-}
-
 #st {
     color: rgba(255, 255, 255, 0.8);
     margin: 0;
@@ -211,6 +204,10 @@ nav {
     text-align: left;
     float: right;
     overflow: hidden;
+}
+
+#main_contents a{
+    margin-right: 10px;
 }
 
 #main_contents h3 {
