@@ -87,7 +87,7 @@ header {
 
 #icon {
     padding: 0;
-    margin: 0;
+    margin-right: 10px;
     font-size: 40px;
     color: rgba(255, 255, 255, 0.9);
 }
